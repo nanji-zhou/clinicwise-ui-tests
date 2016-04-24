@@ -11,7 +11,7 @@ load File.join(File.dirname(__FILE__), "buildwise.rake")
 ## Settings: Customize here...
 # 
 BUILDWISE_URL = ENV["BUILDWISE_MASTER"] || "http://buildwise.dev"
-BUILDWISE_QUICK_PROJECT_ID = "project-quick-build"
+BUILDWISE_QUICK_PROJECT_ID = "clinicwise-ui-tests"
 BUILDWISE_FULL_PROJECT_ID  = "project-full-build"
  
 FULL_BUILD_MAX_TIME = 60 * 60   # 1 hour
